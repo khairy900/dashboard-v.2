@@ -1,0 +1,140 @@
+/* Global */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  background: #f0f0f0;
+}
+
+/* Log in Form Css*/
+
+.log-in-form {
+    max-width: 500px;
+    margin: 20vh auto;
+    background: white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden
+}
+
+.log-in-form form {
+    padding: 35px ;
+}
+
+.log-in-form button {
+    display: block;
+    margin: 30px 0 auto;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.log-in-form i.fa-lock {
+    display: block;
+    text-align: center;
+    margin-top: 40px
+}
+
+/* Log in Form Css*/
+
+.edit-profile-form {
+    max-width: 500px;
+    margin: 20vh auto;
+    background: white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden
+}
+
+.edit-profile-form form {
+    padding: 35px ;
+}
+
+.edit-profile-form button {
+    display: block;
+    margin: 30px 0 auto;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.edit-profile-form i.fa-lock {
+    display: block;
+    text-align: center;
+    margin-top: 40px
+}
+
+
+/* Navbar */
+
+#sideNav,
+#content {
+  float: left;
+}
+
+#content {
+  width: 100%;
+  max-width: calc(100% - 250px);
+}
+
+/* SideNav*/
+#sideNav {
+  background: white;
+  box-shadow: 2px 2px 10px rgba(204, 204, 204, 0.6);
+  width: 100%;
+  max-width: 250px;
+  height: calc(100vh - 50px);
+  cursor: pointer;
+  font-weight: bold;
+}
+#sideNav ul li {
+  padding: 10px 20px;
+}
+#sideNav ul li:hover {
+  border-left: 6px solid #00ADB5;
+}
+#sideNav ul i {
+  width: 25px;
+  margin: 0 10px;
+}
+
+/* UpperNav*/
+#UpperNav {
+  position: relative;
+  height: 50px;
+  color: white;
+  padding-right: 100px;
+}
+#UpperNav .dropdown .dropdown-toggle {
+  background: white;
+  color: black;
+}
+#UpperNav .dropdown .dropdown-toggle:hover {
+  color: white;
+}
+#UpperNav .dropdown .dropdown-menu a {
+  padding-left: 0;
+}
+#UpperNav .dropdown .dropdown-menu a:hover {
+  color: white;
+}
+
+/* Extends */
+#UpperNav {
+  background-color: #222831;
+}
+
+#UpperNav .dropdown .dropdown-toggle:hover, #UpperNav .dropdown .dropdown-menu a:hover {
+  background-color: #00ADB5;
+}
+
+#sideNav ul li:hover {
+  color: #00ADB5;
+}
+
+#sideNav ul li, #UpperNav .dropdown .dropdown-toggle, #UpperNav .dropdown .dropdown-menu a {
+  transition: all 0.4s ease;
+}
+
+/* End Extends */
