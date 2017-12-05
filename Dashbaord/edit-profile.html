@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Log in</title>
+    <title>Edit profile</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,24 +30,33 @@
 
 </head>
 
-<body style="padding: 0; background:#222831; overflow: hidden;">
+<body style="background:#222831;">
     <!-- Edit profile Form -->
-    <form action="#" class="edit-profile-form" style="padding: 0 40px 40px; text-align: center;">
-        <i class="fa fa-user fa-3x" style="padding: 20px "></i>
+    <form action="#" class="edit-profile-form">
+        <!-- Heading -->
+        <div class="form-heading text-center" style="margin-bottom: 15px">
+            <i class="fa fa-user fa-3x d-inline-block" style="padding: 15px;">
+            </i>
+            <h2 class="d-inline-block">Edit profile</h2>
+        </div>
+
         <!-- Text-->
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Full name">
+            <label for="form-name">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your full name" id="form-name">
         </div>
         <!-- Email-->
         <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email">
+            <label for="form-name">Email</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
         </div>
         <!-- Password-->
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password">
+            <label for="form-name">Password</label>
+            <input type="password" class="form-control" placeholder="Enter your password">
         </div>
-        <!-- Submit -->
-        <button type="submit" class="btn btn-primary btn-block" style="cursor: pointer;">Submit</button>
+        <!-- Save -->
+        <button type="submit" class="btn btn-primary btn-block" style="cursor: pointer;">Save</button>
 
     </form>
     <!--End  Edit profile Form -->
